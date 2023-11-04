@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.H2T {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:aliceblue;
+    font-size: 25px;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.comentarios {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.comentarios-sessao {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.comentario1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #D21617;
+    height: 440px;
+    font-size: 27px;
+    transition: .8s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.comentario1:hover {
+    color: #D21617;
+    transform: scale(1.01);
+}
+
+.comentario2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #D21617;
+    height: 440px;
+    font-size: 27px;
+    transition: .8s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.comentario2:hover {
+    color: #D21617;
+    transform: scale(1.01); 
+}
+
+.comentario3 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #D21617;
+    height: 440px;
+    font-size: 27px;
+    transition: .8s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.comentario3:hover {
+    color: #D21617;
+    transform: scale(1.01);
+}
+
+.comentario4 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    border-style:groove;
+    border-width: 2px;
+    border-color: #D21617;
+    height: 440px;
+    font-size: 26.5px;
+    transition: .8s;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.comentario4:hover {
+    color: #D21617;
+    transform: scale(1.01);
+}
+
+.pessoa {
+    font-size: 15px;
+}
+
+
+@media(max-width: 1248px ) {
+    .comentario1 {
+        font-size: 20px;
+        height: 316px;
+    }
+
+    .comentario2 {
+        font-size: 20.5px;
+        height: 316px;      
+    }
+
+    .comentario3 {
+        font-size: 20.5px;
+        height: 316px;
+    }
+
+    .comentario4 {
+        font-size: 20.5px;
+        height: 316px;
+    }
+
+    .H2T {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 1184px ) {
+    .comentario1 {
+        font-size: 16px;
+        height: 245px;
+    }
+
+    .comentario2 {
+        font-size: 16px;
+        height: 245px;      
+    }
+
+    .comentario3 {
+        font-size: 16px;
+        height: 245px;
+    }
+
+    .comentario4 {
+        font-size: 16px;
+        height: 245px;
+    }
+
+    .H2T {
+        font-size: 17px;
+        padding-left: 500px;
+    }
+
+    .pessoa {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1103px ) {
+
+    .comentario1 {
+        height: 245px
+    }
+
+    .comentario2 {
+
+        height: 245px     
+    }
+
+    .comentario3 {
+        height: 245px
+    }
+
+    .comentario4 {
+        height: 245px
+    }
+
+    .pessoa {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 1023px ) {
+    .comentario1 {
+        font-size: 11px;
+        height: 120px;
+    }
+
+    .comentario2 {
+        font-size: 11px;
+        height: 120px;    
+    }
+
+    .comentario3 {
+        font-size: 11px;
+        height: 120px;
+    }
+
+    .comentario4 {
+        font-size: 11px;
+        height: 120px;
+    }
+
+    .pessoa {
+        font-size: 8px;
+    }
+
+    .H2T {
+        font-size: 16px;
+        padding-left: 400px;
+    }
+}
+
+@media(max-width: 962px) {
+    .comentario1 {
+        height: 140px;
+    }
+
+    .comentario2 {
+        
+        height: 140px;    
+    }
+
+    .comentario3 {
+        
+        height: 140px;
+    }
+
+    .comentario4 {
+
+        height: 140px;
+    }
+}
+
+@media(max-width: 893px) {
+
+    .comentario1 {
+        height: 160px;
+    }
+
+    .comentario2 {
+        
+        height: 160px;  
+    }
+
+    .comentario3 {
+        
+        height: 160px;
+    }
+
+    .comentario4 {
+
+        height: 160px;
+    }
+}
+
+@media(max-width: 813px) {
+    .comentario1 {
+        height: 180px;
+    }
+
+    .comentario2 {
+        
+        height: 180px;  
+    }
+
+    .comentario3 {
+        
+        height: 180px;
+    }
+
+    .comentario4 {
+
+        height: 180px;
+    }
+}
+
+@media(max-width: 723px) {
+    .H2T {
+        font-size: 14px;
+        padding-left: 300px;
+    }
+
+    .comentario1 {
+        height: 211px;
+    }
+
+    .comentario2 {
+        
+        height: 211px;
+    }
+
+    .comentario3 {
+        
+        height: 205px;
+    }
+
+    .comentario4 {
+
+        height: 205px;
+    }
+}
+
+@media(max-width: 667px) {
+    .comentario1 {
+        height: 235px;
+    }
+
+    .comentario2 {
+        
+        height: 235px;
+    }
+
+    .comentario3 {
+        
+        height: 235px;
+    }
+
+    .comentario4 {
+
+        height: 235px;
+}
+
+}
+
+@media(max-width: 644px) {
+    .comentario1 {
+        height: 235px;
+    }
+
+    .comentario2 {
+        
+        height: 235px;
+    }
+
+    .comentario3 {
+        
+        height: 235px;
+    }
+
+    .comentario4 {
+
+        height: 235px;
+}
+
+.comentarios-sessao {
+    padding-left: 30px;
+    column-gap: 20px;
+}
+
+}
+
+@media(max-width: 587px) {
+    .comentario1 {
+        height: 270px;
+    }
+
+    .comentario2 {
+        
+        height: 270px;
+    }
+
+    .comentario3 {
+        
+        height: 270px;
+    }
+
+    .comentario4 {
+
+        height: 270px;
+    }
+
+    .comentarios-sessao {
+        padding-left: 30px;
+        column-gap: 20px;
+    }
+}
+
+
+
+@media(max-width: 551px) {
+    .H2T {
+        padding-left: 200px;
+    }
+
+    .comentario1 {
+        height: 290px;
+    }
+
+    .comentario2 {
+        
+        height: 290px;
+    }
+
+    .comentario3 {
+        
+        height: 290px;
+    }
+
+    .comentario4 {
+
+        height: 290px;
+    }
+
+    .comentarios-sessao {
+        padding-left: 30px;
+        column-gap: 10px;
+    }
+}
+
+
+@media(max-width: 459px) {
+    .comentario1 {
+        font-size: 11px;
+    }
+
+    .comentario2 {
+        font-size: 12px;
+        
+    }
+
+    .comentario3 {
+        font-size: 12px;
+        
+    }
+
+    .comentario4 {
+        font-size: 11px;
+        
+    }
+
+    .comentarios-sessao {
+        padding-left: 30px;
+        column-gap: 10px;
+    }
+}   
+
+@media(max-width: 435px) {
+    .H2T {
+        padding-left: 150px;
+    }
+
+    .comentario1 {
+        font-size: 11px;
+    }
+
+    .comentario2 {
+        font-size: 11px;
+        
+    }
+
+    .comentario3 {
+        font-size: 12px;
+        
+    }
+
+    .comentario4 {
+        font-size: 12px;
+        
+    }
+}
+
+@media(max-width: 432px) {
+    .comentario1 {
+        font-size: 10.5px;
+    }
+
+    .comentario2 {
+        font-size: 10.5px;
+        
+    }
+
+    .comentario3 {
+        font-size: 10.5px;
+        
+    }
+
+    .comentario4 {
+        font-size: 10.5px;
+        
+    }
+}
+
+@media(max-width: 399px) {
+
+    .comentario1 {
+        font-size: 10px;
+    }
+
+    .comentario2 {
+        font-size: 10px;
+        
+    }
+
+    .comentario3 {
+        font-size: 10px;
+        
+    }
+
+    .comentario4 {
+        font-size: 10px;
+        
+    }
+}
+
+@media(max-width: 374px) {
+    .comentario1 {
+        font-size: 9px;
+    }
+
+    .comentario2 {
+        font-size: 9px;
+        
+    }
+
+    .comentario3 {
+        font-size: 9px;
+        
+    }
+
+    .comentario4 {
+        font-size: 9px;
+        
+    }
+}

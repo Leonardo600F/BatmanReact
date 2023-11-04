@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    transition: .5s;
+}
+
+li:hover{
+    color: #d21617;
+
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: aliceblue;
+    transition: .5s;
+    font-size: 1.0rem;
+}
+
+i:hover {
+    color:#D21617;
+}
+
+@media(max-width: 830px) {
+    #logo {
+        width: 110px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+    .social-media {
+        width: 92px;
+    }
+}   
+
+@media(max-width: 626px) {
+    li {
+        font-size: 12px;
+    }
+
+    #logo {
+        width: 90px;
+    }
+
+    i{
+        font-size: 0.6rem;
+    }
+
+    .social-media {
+        width: 82px;
+    }
+
+    header {
+        height: 85px;
+    }
+}
+
+@media(max-width: 510px) {
+    #logo {
+        width: 75px;
+    }
+
+    li {
+        font-size: 9.5px;
+    }
+
+    i {
+        font-size: 0.5rem;
+    }
+
+    .social-media {
+        width: 69px;
+    }
+
+    header {
+        height: 72px;
+    }
+}
+
+@media(max-width: 437px) {
+    #logo {
+        width: 60px;
+    }
+
+    li {
+        font-size: 7.5px;
+    }
+
+    i {
+        font-size: 0.4rem;
+    }
+
+    .social-media {
+        width: 45px;
+    }
+
+    header {
+        height: 62px;
+    }
+}
+
+@media(max-width: 357px) {
+    #logo {
+        width: 50px;
+    }
+
+    li {
+        font-size: 6.6px;
+    }
+
+    i {
+        font-size: 0.3rem;
+    }
+
+    .social-media {
+        width: 32px;
+    }
+
+    header {
+        height: 52px;
+    }
+}
